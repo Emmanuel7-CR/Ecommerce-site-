@@ -1,0 +1,27 @@
+/* Custom Style Overrides */
+
+body {
+  background-color: #f8f9fa;
+}
+
+/* Make product cards consistent height */
+.card.h-100 {
+  min-height: 100%;
+}
+
+/* Small spacing between navbar and content */
+body > .container,
+body > .container-fluid {
+  margin-top: 1rem;
+}
+
+/* Brand colour example (change to your own palette) */
+.btn-primary,
+.pagination .page-link.btn-primary {
+  background-color: #1d6efd;
+  border-color: #1d6efd;
+}
+.btn-primary:hover {
+  background-color: #175acd;
+  border-color: #175acd;
+}

@@ -1,0 +1,1232 @@
+[16-Aug-2025 00:41:26 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\ecommerce-site/../includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\ecommerce-site\index.php on line 3
+[16-Aug-2025 00:41:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\ecommerce-site/../includes/header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ecommerce-site\index.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 3
+[16-Aug-2025 00:41:38 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'is_featured' in 'where clause' in C:\xampp\htdocs\ecommerce-site\index.php:10
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(10): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 10
+[16-Aug-2025 00:42:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'is_featured' in 'where clause' in C:\xampp\htdocs\ecommerce-site\index.php:10
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(10): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 10
+[16-Aug-2025 01:16:15 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'password' in 'field list' in C:\xampp\htdocs\ecommerce-site\login.php:24
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\login.php(24): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\login.php on line 24
+[16-Aug-2025 21:24:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in C:\xampp\htdocs\ecommerce-site\includes\header.php:49
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 49
+[16-Aug-2025 21:24:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in C:\xampp\htdocs\ecommerce-site\includes\header.php:49
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 49
+[16-Aug-2025 21:24:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in C:\xampp\htdocs\ecommerce-site\includes\header.php:49
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 49
+[16-Aug-2025 21:24:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in C:\xampp\htdocs\ecommerce-site\includes\header.php:49
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 49
+[16-Aug-2025 21:24:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in C:\xampp\htdocs\ecommerce-site\includes\header.php:49
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 49
+[16-Aug-2025 21:24:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in C:\xampp\htdocs\ecommerce-site\includes\header.php:49
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 49
+[16-Aug-2025 21:24:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in C:\xampp\htdocs\ecommerce-site\includes\header.php:49
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 49
+[16-Aug-2025 21:24:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in C:\xampp\htdocs\ecommerce-site\includes\header.php:49
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 49
+[16-Aug-2025 21:24:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in C:\xampp\htdocs\ecommerce-site\includes\header.php:49
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 49
+[16-Aug-2025 21:25:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in C:\xampp\htdocs\ecommerce-site\includes\header.php:49
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 49
+[16-Aug-2025 21:25:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in C:\xampp\htdocs\ecommerce-site\includes\header.php:49
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 49
+[16-Aug-2025 21:31:03 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\ecommerce-site\account/includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\ecommerce-site\account\profile.php on line 74
+[16-Aug-2025 21:31:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\ecommerce-site\account/includes/header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ecommerce-site\account\profile.php:74
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\account\profile.php on line 74
+[16-Aug-2025 21:33:08 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\ecommerce-site\account/includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\ecommerce-site\account\profile.php on line 119
+[16-Aug-2025 21:33:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\ecommerce-site\account/includes/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ecommerce-site\account\profile.php:119
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\account\profile.php on line 119
+[16-Aug-2025 22:14:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\ecommerce-site\account\orders.php:32
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\account\orders.php(32): mysqli->prepare('SELECT id, tota...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 32
+[16-Aug-2025 23:24:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:124
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 124
+[16-Aug-2025 23:24:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:124
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 124
+[16-Aug-2025 23:26:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:124
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 124
+[16-Aug-2025 23:29:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[16-Aug-2025 23:29:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:120
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 120
+[16-Aug-2025 23:34:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:132
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 132
+[16-Aug-2025 23:34:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:132
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 132
+[16-Aug-2025 23:36:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:132
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 132
+[16-Aug-2025 23:46:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:132
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 132
+[16-Aug-2025 23:46:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:132
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 132
+[16-Aug-2025 23:46:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:132
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 132
+[16-Aug-2025 23:48:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:132
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 132
+[16-Aug-2025 23:49:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[16-Aug-2025 23:50:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[16-Aug-2025 23:50:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:132
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 132
+[16-Aug-2025 23:52:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:132
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 132
+[16-Aug-2025 23:53:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[16-Aug-2025 23:53:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[16-Aug-2025 23:57:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[16-Aug-2025 23:58:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[16-Aug-2025 23:58:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:01:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:04:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:06:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:08:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:08:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:08:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:08:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:08:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:08:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:08:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:08:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:08:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:08:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:08:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:08:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:08:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:11:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:11:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:11:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:11:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:16:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:22:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:22:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:22:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:22:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:22:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:35:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:35:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:35:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:35:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:35:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:35:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:35:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:35:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:35:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:35:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:36:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:36:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:36:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:36:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:36:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:36:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:36:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:36:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:36:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:36:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:36:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:36:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:36:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:36:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:36:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:37:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:37:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:37:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:37:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:37:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:37:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[17-Aug-2025 00:38:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:12:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:12:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:15:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:30:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:30:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:32:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:33:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:33:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:37:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:37:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:37:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:37:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:37:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:37:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:37:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:37:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:37:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:38:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:38:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:38:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:38:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:38:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:38:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:38:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:38:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:39:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:46:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:46:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:48:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:49:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:51:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:51:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:55:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 00:55:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\index.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\index.php on line 59
+[18-Aug-2025 01:35:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\ecommerce-site\includes\functions.php on line 3
+[18-Aug-2025 01:51:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\login.php:58
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\login.php on line 58
+[18-Aug-2025 01:52:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\login.php:58
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\login.php on line 58
+[18-Aug-2025 01:52:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\login.php:58
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\login.php on line 58
+[18-Aug-2025 01:52:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\login.php:58
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\login.php on line 58
+[18-Aug-2025 01:52:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\login.php:58
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\login.php on line 58
+[18-Aug-2025 01:52:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\login.php:58
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\login.php on line 58
+[18-Aug-2025 01:52:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\login.php:58
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\login.php on line 58
+[18-Aug-2025 01:52:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\login.php:58
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\login.php on line 58
+[18-Aug-2025 01:52:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\login.php:58
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\login.php on line 58
+[18-Aug-2025 01:52:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\login.php:58
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\login.php on line 58
+[18-Aug-2025 01:52:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\login.php:58
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\login.php on line 58
+[18-Aug-2025 01:53:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\register.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\register.php on line 105
+[18-Aug-2025 12:34:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\product_detail.php:60
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\product_detail.php on line 60
+[18-Aug-2025 12:35:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\account\change_password.php:85
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\account\change_password.php on line 85
+[18-Aug-2025 12:35:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\account\profile.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\account\profile.php on line 92
+[18-Aug-2025 12:42:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\account\profile.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\account\profile.php on line 92
+[18-Aug-2025 12:47:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\account\change_password.php:85
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\account\change_password.php on line 85
+[18-Aug-2025 12:51:33 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:51:33 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:51:33 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:51:33 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:51:33 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:51:33 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:51:33 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:51:33 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:51:36 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:51:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:51:36 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:51:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:51:36 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:51:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:51:36 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:51:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:54:15 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:54:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:54:15 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:54:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:54:15 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:54:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:54:15 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 12:54:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce-site\account\orders.php on line 63
+[18-Aug-2025 13:05:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\product_detail.php:60
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\product_detail.php on line 60
+[18-Aug-2025 13:06:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\product_detail.php:60
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\product_detail.php on line 60
+[18-Aug-2025 13:06:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\product_detail.php:60
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\product_detail.php on line 60
+[18-Aug-2025 13:06:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\product_detail.php:60
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\product_detail.php on line 60
+[18-Aug-2025 13:07:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\product_detail.php:60
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\product_detail.php on line 60
+[18-Aug-2025 13:07:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\product_detail.php:60
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\product_detail.php on line 60
+[18-Aug-2025 18:08:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\checkout.php:93
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 93
+[18-Aug-2025 18:08:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\product_detail.php:60
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\product_detail.php on line 60
+[18-Aug-2025 18:29:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\checkout.php:93
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 93
+[18-Aug-2025 18:39:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\checkout.php:93
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 93
+[18-Aug-2025 18:51:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\checkout.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 97
+[18-Aug-2025 18:51:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\checkout.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 97
+[18-Aug-2025 18:51:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\checkout.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 97
+[18-Aug-2025 18:52:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\checkout.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 97
+[18-Aug-2025 18:52:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\checkout.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 97
+[18-Aug-2025 18:52:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\checkout.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 97
+[18-Aug-2025 18:52:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\checkout.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 97
+[18-Aug-2025 18:58:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\checkout.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 92
+[18-Aug-2025 18:58:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\checkout.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 92
+[18-Aug-2025 19:15:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:129
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 129
+[19-Aug-2025 04:44:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:129
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 129
+[19-Aug-2025 04:56:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:138
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 138
+[19-Aug-2025 04:57:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:138
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 138
+[19-Aug-2025 04:57:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:138
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 138
+[19-Aug-2025 04:58:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:138
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 138
+[19-Aug-2025 04:58:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:138
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 138
+[19-Aug-2025 04:59:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:141
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 141
+[19-Aug-2025 04:59:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:141
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 141
+[19-Aug-2025 04:59:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:141
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 141
+[19-Aug-2025 04:59:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:141
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 141
+[19-Aug-2025 04:59:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PAYSTACK_PUBLIC_KEY" in C:\xampp\htdocs\ecommerce-site\checkout.php:138
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 138
+[19-Aug-2025 05:16:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in C:\xampp\htdocs\ecommerce-site\product_detail.php:60
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\product_detail.php on line 60
+[19-Aug-2025 06:17:24 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\ecommerce-site\register.php:62
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\register.php(62): mysqli->prepare('\r\n            I...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\register.php on line 62
+[19-Aug-2025 06:21:13 Europe/Berlin] Verification email failed: SMTP Error: Could not connect to SMTP host. Failed to connect to server SMTP server error: Failed to connect to server SMTP code: 10060 Additional SMTP info: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+[19-Aug-2025 06:47:36 Europe/Berlin] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-45b43e1d8aasm6223055e9.3 - gsmtp
+
+[19-Aug-2025 06:47:36 Europe/Berlin] CLIENT -> SERVER: EHLO localhost
+
+[19-Aug-2025 06:47:36 Europe/Berlin] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.90.100.198]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[19-Aug-2025 06:47:36 Europe/Berlin] CLIENT -> SERVER: AUTH LOGIN
+
+[19-Aug-2025 06:47:36 Europe/Berlin] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[19-Aug-2025 06:47:36 Europe/Berlin] CLIENT -> SERVER: [credentials hidden]
+[19-Aug-2025 06:47:37 Europe/Berlin] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[19-Aug-2025 06:47:37 Europe/Berlin] CLIENT -> SERVER: [credentials hidden]
+[19-Aug-2025 06:47:37 Europe/Berlin] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[19-Aug-2025 06:47:37 Europe/Berlin] CLIENT -> SERVER: MAIL FROM:<electromart0002@gmail.com>
+
+[19-Aug-2025 06:47:37 Europe/Berlin] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-45b43e1d8aasm6223055e9.3 - gsmtp
+
+[19-Aug-2025 06:47:37 Europe/Berlin] CLIENT -> SERVER: RCPT TO:<ejiroomoniyi31@gmail.com>
+
+[19-Aug-2025 06:47:37 Europe/Berlin] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-45b43e1d8aasm6223055e9.3 - gsmtp
+
+[19-Aug-2025 06:47:37 Europe/Berlin] CLIENT -> SERVER: DATA
+
+[19-Aug-2025 06:47:38 Europe/Berlin] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-45b43e1d8aasm6223055e9.3 - gsmtp
+
+[19-Aug-2025 06:47:38 Europe/Berlin] CLIENT -> SERVER: Date: Tue, 19 Aug 2025 06:47:34 +0200
+
+[19-Aug-2025 06:47:38 Europe/Berlin] CLIENT -> SERVER: To: Ejiro Omoniyi <ejiroomoniyi31@gmail.com>
+
+[19-Aug-2025 06:47:38 Europe/Berlin] CLIENT -> SERVER: From: ElectroMart <electromart0002@gmail.com>
+
+[19-Aug-2025 06:47:38 Europe/Berlin] CLIENT -> SERVER: Reply-To: No Reply <no-reply@electromart.com>
+
+[19-Aug-2025 06:47:38 Europe/Berlin] CLIENT -> SERVER: Subject: Email Verification Code
+
+[19-Aug-2025 06:47:38 Europe/Berlin] CLIENT -> SERVER: Message-ID: <e36H6dL9vVbgUh80r3wzkC5izPdFWK9MTDw2qP13KIQ@localhost>
+
+[19-Aug-2025 06:47:38 Europe/Berlin] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[19-Aug-2025 06:47:38 Europe/Berlin] CLIENT -> SERVER: MIME-Version: 1.0
+
+[19-Aug-2025 06:47:38 Europe/Berlin] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[19-Aug-2025 06:47:38 Europe/Berlin] CLIENT -> SERVER: 
+
+[19-Aug-2025 06:47:38 Europe/Berlin] CLIENT -> SERVER: Your verification code is: <strong>504785</strong>
+
+[19-Aug-2025 06:47:38 Europe/Berlin] CLIENT -> SERVER: 
+
+[19-Aug-2025 06:47:38 Europe/Berlin] CLIENT -> SERVER: .
+
+[19-Aug-2025 06:47:38 Europe/Berlin] SERVER -> CLIENT: 250 2.0.0 OK  1755578855 5b1f17b1804b1-45b43e1d8aasm6223055e9.3 - gsmtp
+
+[19-Aug-2025 06:47:38 Europe/Berlin] CLIENT -> SERVER: QUIT
+
+[19-Aug-2025 06:47:39 Europe/Berlin] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-45b43e1d8aasm6223055e9.3 - gsmtp
+
+[20-Aug-2025 07:37:00 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\ecommerce-site\account\update_address.php on line 4
+[20-Aug-2025 07:37:07 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\ecommerce-site\account\update_address.php on line 4
+[20-Aug-2025 07:37:20 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\ecommerce-site\account\update_address.php on line 4
+[20-Aug-2025 07:37:26 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\ecommerce-site\account\update_address.php on line 4
+[20-Aug-2025 07:37:27 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\ecommerce-site\account\update_address.php on line 4
+[20-Aug-2025 07:37:27 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\ecommerce-site\account\update_address.php on line 4
+[20-Aug-2025 07:37:27 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\ecommerce-site\account\update_address.php on line 4
+[20-Aug-2025 07:37:27 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\ecommerce-site\account\update_address.php on line 4
+[20-Aug-2025 07:37:28 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\ecommerce-site\account\update_address.php on line 4
+[20-Aug-2025 07:37:28 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\ecommerce-site\account\update_address.php on line 4
+[20-Aug-2025 07:38:07 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\ecommerce-site\account\update_address.php on line 4
+[20-Aug-2025 07:42:36 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\ecommerce-site\account\update_address.php on line 4
+[20-Aug-2025 07:42:38 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\ecommerce-site\account\update_address.php on line 4
+[20-Aug-2025 08:31:15 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone' in 'where clause' in C:\xampp\htdocs\ecommerce-site\login.php:24
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\login.php(24): mysqli->prepare('\r\n        SELEC...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\login.php on line 24
+[20-Aug-2025 08:31:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone' in 'where clause' in C:\xampp\htdocs\ecommerce-site\login.php:24
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\login.php(24): mysqli->prepare('\r\n        SELEC...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\login.php on line 24
+[20-Aug-2025 10:32:01 Europe/Berlin] Resend code failed: Invalid address:  (to): PHONE-+2348055311844
+[20-Aug-2025 10:57:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\includes\header.php:69
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 69
+[20-Aug-2025 10:57:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\includes\header.php:69
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 69
+[20-Aug-2025 11:00:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\includes\header.php:69
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 69
+[20-Aug-2025 11:00:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\includes\header.php:69
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 69
+[20-Aug-2025 11:00:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\includes\header.php:69
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 69
+[20-Aug-2025 11:00:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\includes\header.php:69
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 69
+[20-Aug-2025 11:02:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\includes\header.php:69
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 69
+[20-Aug-2025 11:02:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\includes\header.php:69
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 69
+[20-Aug-2025 11:03:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\ecommerce-site\includes\header.php:69
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\includes\header.php on line 69
+[20-Aug-2025 11:10:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'quantity' in 'field list' in C:\xampp\htdocs\ecommerce-site\product_detail.php:16
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\product_detail.php(16): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\product_detail.php on line 16
+[21-Aug-2025 13:41:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.order_date' in 'field list' in C:\xampp\htdocs\ecommerce-site\account\order_detail.php:16
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\account\order_detail.php(16): mysqli->prepare('\r\n    SELECT o....')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\account\order_detail.php on line 16
+[21-Aug-2025 13:41:58 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.order_date' in 'field list' in C:\xampp\htdocs\ecommerce-site\account\order_detail.php:16
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\account\order_detail.php(16): mysqli->prepare('\r\n    SELECT o....')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\account\order_detail.php on line 16
+[21-Aug-2025 13:55:57 Europe/Berlin] PHP Warning:  Undefined array key "total" in C:\xampp\htdocs\ecommerce-site\account\order_detail.php on line 57
+[21-Aug-2025 13:55:57 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\ecommerce-site\account\order_detail.php on line 57
+[21-Aug-2025 13:55:59 Europe/Berlin] PHP Warning:  Undefined array key "total" in C:\xampp\htdocs\ecommerce-site\account\order_detail.php on line 57
+[21-Aug-2025 13:55:59 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\ecommerce-site\account\order_detail.php on line 57
+[21-Aug-2025 13:56:51 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\checkout.php:58
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\checkout.php(58): mysqli_stmt->bind_param('idsssss', 6, 2989.77, 'ECM-30329258', 'Ejiro Omoniyi', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 58
+[21-Aug-2025 13:57:23 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\checkout.php:58
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\checkout.php(58): mysqli_stmt->bind_param('idsssss', 6, 2989.77, 'ECM-86196952', 'Ejiro Omoniyi', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 58
+[21-Aug-2025 13:57:58 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\checkout.php:58
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\checkout.php(58): mysqli_stmt->bind_param('idsssss', 6, 2989.77, 'ECM-67479526', 'Ejiro Omoniyi', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 58
+[21-Aug-2025 14:20:51 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'shipping_email' in 'field list' in C:\xampp\htdocs\ecommerce-site\checkout.php:55
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\checkout.php(55): mysqli->prepare('\r\n            I...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 55
+[21-Aug-2025 14:26:04 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'shipping_email' in 'field list' in C:\xampp\htdocs\ecommerce-site\checkout.php:70
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\checkout.php(70): mysqli->prepare('\r\n            I...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\checkout.php on line 70
+[21-Aug-2025 14:42:38 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'shipping_email' in 'field list' in C:\xampp\htdocs\ecommerce-site\payment_cod.php:58
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(58): mysqli->prepare('\r\n    INSERT IN...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 58
+[21-Aug-2025 14:43:05 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'shipping_email' in 'field list' in C:\xampp\htdocs\ecommerce-site\payment_cod.php:58
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(58): mysqli->prepare('\r\n    INSERT IN...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 58
+[21-Aug-2025 14:43:08 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'shipping_email' in 'field list' in C:\xampp\htdocs\ecommerce-site\payment_cod.php:58
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(58): mysqli->prepare('\r\n    INSERT IN...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 58
+[21-Aug-2025 14:43:11 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'shipping_email' in 'field list' in C:\xampp\htdocs\ecommerce-site\payment_cod.php:58
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(58): mysqli->prepare('\r\n    INSERT IN...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 58
+[21-Aug-2025 14:44:04 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\payment_cod.php:65
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(65): mysqli_stmt->bind_param('idsssssssss', 6, 1389.97, 'ECM-25515913', 'Ejiro Omoniyi', 'ejiroomoniyi31@...', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 65
+[21-Aug-2025 14:48:01 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\payment_cod.php:65
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(65): mysqli_stmt->bind_param('idsssssssss', 6, 1389.97, 'ECM-75893458', 'Ejiro Omoniyi', 'ejiroomoniyi31@...', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 65
+[21-Aug-2025 14:54:15 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\payment_cod.php:65
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(65): mysqli_stmt->bind_param('idssssssss', 6, 1389.97, 'ECM-52909727', 'Ejiro Omoniyi', 'ejiroomoniyi31@...', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 65
+[21-Aug-2025 15:02:03 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\payment_success.php:86
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_success.php(86): mysqli_stmt->bind_param('idsssssssss', 6, 1389.97, 'ECM-65591079', 'pending', 'Ejiro Omoniyi', '', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_success.php on line 86
+[21-Aug-2025 15:02:20 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\payment_cod.php:65
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(65): mysqli_stmt->bind_param('idssssssss', 6, 1389.97, 'ECM-35030304', 'Ejiro Omoniyi', 'ejiroomoniyi31@...', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 65
+[21-Aug-2025 15:03:57 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\payment_cod.php:65
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(65): mysqli_stmt->bind_param('idssssssss', 6, 1389.97, 'ECM-51427747', 'Ejiro Omoniyi', 'ejiroomoniyi31@...', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 65
+[21-Aug-2025 15:06:32 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'delivery_fee' in 'field list' in C:\xampp\htdocs\ecommerce-site\payment_cod.php:58
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(58): mysqli->prepare('\r\n    INSERT IN...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 58
+[21-Aug-2025 15:10:00 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\payment_cod.php:68
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(68): mysqli_stmt->bind_param('idssssssss', 6, 1389.97, 'ECM-91519890', 'Ejiro Omoniyi', 'ejiroomoniyi31@...', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 68
+[21-Aug-2025 15:17:52 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\payment_cod.php:68
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(68): mysqli_stmt->bind_param('idssssssss', 6, 1389.97, 'ECM-87491801', 'Ejiro Omoniyi', 'ejiroomoniyi31@...', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 68
+[21-Aug-2025 15:17:55 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\payment_cod.php:68
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(68): mysqli_stmt->bind_param('idssssssss', 6, 1389.97, 'ECM-43318657', 'Ejiro Omoniyi', 'ejiroomoniyi31@...', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 68
+[21-Aug-2025 15:20:09 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\payment_cod.php:68
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(68): mysqli_stmt->bind_param('idssssssss', 6, 1389.97, 'ECM-61861582', 'Ejiro Omoniyi', 'ejiroomoniyi31@...', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 68
+[21-Aug-2025 15:20:14 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\payment_cod.php:68
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(68): mysqli_stmt->bind_param('idssssssss', 6, 1389.97, 'ECM-55224479', 'Ejiro Omoniyi', 'ejiroomoniyi31@...', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 68
+[21-Aug-2025 15:20:27 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\payment_cod.php:68
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(68): mysqli_stmt->bind_param('idssssssss', 6, 1389.97, 'ECM-17473507', 'Ejiro Omoniyi', 'ejiroomoniyi31@...', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 68
+[21-Aug-2025 15:21:17 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\payment_cod.php:68
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(68): mysqli_stmt->bind_param('idssssssss', 6, 1389.97, 'ECM-46875997', 'Ejiro Omoniyi', 'ejiroomoniyi31@...', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 68
+[21-Aug-2025 15:21:32 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ecommerce-site\payment_cod.php:68
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-site\payment_cod.php(68): mysqli_stmt->bind_param('idssssssss', 6, 1389.97, 'ECM-16183432', 'Ejiro Omoniyi', 'ejiroomoniyi31@...', 'No 12 Odoh lane', 'Sapele', 'Delta', '08035696635')
+#1 {main}
+  thrown in C:\xampp\htdocs\ecommerce-site\payment_cod.php on line 68
