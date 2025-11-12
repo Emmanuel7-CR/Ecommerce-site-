@@ -160,6 +160,9 @@ $_SESSION['shipping_city'] = $shipping_city;
 $_SESSION['shipping_state'] = $shipping_state;
 $_SESSION['shipping_phone'] = $shipping_phone;
 
-flash('Order placed successfully. You can pay on delivery.');
-header('Location: ' . BASE_URL . 'account/orders.php');
+// Store reference in session for cod_success.php
+$_SESSION['cod_order_reference'] = $reference;
+
+// Redirect to COD success page
+header('Location: ' . BASE_URL . 'cod_success.php');
 exit;

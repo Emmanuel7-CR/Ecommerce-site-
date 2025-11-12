@@ -7,6 +7,18 @@ require_once __DIR__ . '/includes/functions.php';
 if (session_status() === PHP_SESSION_NONE) session_start();
 require_login();
 
+// Helper to get flash message (in case your functions.php doesn't have it)
+if (!function_exists('get_flash')) {
+    function get_flash() {
+        if (!empty($_SESSION['flash'])) {
+            $msg = $_SESSION['flash'];
+            unset($_SESSION['flash']);
+            return $msg;
+        }
+        return '';
+    }
+}
+
 // Ensure user email in session
 if (empty($_SESSION['user_email'])) {
     $stmt = $conn->prepare("SELECT email FROM users WHERE id = ?");
@@ -35,11 +47,18 @@ foreach ($_SESSION['cart'] as $item) {
 }
 $total = $subtotal + $delivery_fee;
 
+// Get any flash message (e.g., from payment_cod.php redirect)
+$flash_message = get_flash();
+
 require_once __DIR__ . '/includes/header.php';
 ?>
 
 <div class="container mt-4">
     <h1>Checkout</h1>
+
+    <?php if (!empty($flash_message)): ?>
+        <div class="alert alert-warning"><?= e($flash_message) ?></div>
+    <?php endif; ?>
 
     <?php if (!empty($errors)): ?>
         <div class="alert alert-danger">
@@ -48,79 +67,77 @@ require_once __DIR__ . '/includes/header.php';
     <?php endif; ?>
 
     <div class="row">
-        <!-- Shipping Form Card -->
-        <div class="col-md-6 mb-3">
+        <div class="col-md-12">
             <div class="card shadow-sm">
                 <div class="card-header bg-primary text-white">
-                    Shipping Details
+                    Shipping & Payment
                 </div>
                 <div class="card-body">
-                    <form id="shippingForm" class="row g-3">
-                        <div class="col-12">
-                            <label class="form-label">Full Name</label>
-                            <input type="text" name="shipping_full_name" class="form-control"
-                                   value="<?= e($_SESSION['user_name'] ?? '') ?>" required>
-                        </div>
-
-                        <div class="col-12">
-                            <label class="form-label">Email</label>
-                            <input type="email" name="shipping_email" class="form-control"
-                                   value="<?= e($_SESSION['user_email'] ?? '') ?>" required>
-                        </div>
-
-                        <div class="col-12">
-                            <label class="form-label">Phone</label>
-                            <input type="text" name="shipping_phone" class="form-control"
-                                   value="<?= e($_SESSION['shipping_phone'] ?? '') ?>" required>
-                        </div>
-
-                        <div class="col-12">
-                            <label class="form-label">Street Address</label>
-                            <textarea name="shipping_street" class="form-control" rows="2"
-                                      required><?= e($_SESSION['shipping_street'] ?? '') ?></textarea>
-                        </div>
-
-                        <div class="col-md-6">
-                            <label class="form-label">City</label>
-                            <input type="text" name="shipping_city" class="form-control"
-                                   value="<?= e($_SESSION['shipping_city'] ?? '') ?>" required>
-                        </div>
-
-                        <div class="col-md-6">
-                            <label class="form-label">State</label>
-                            <input type="text" name="shipping_state" class="form-control"
-                                   value="<?= e($_SESSION['shipping_state'] ?? '') ?>" required>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <!-- Order Summary Card -->
-        <div class="col-md-6 mb-3">
-            <div class="card shadow-sm">
-                <div class="card-header bg-secondary text-white">
-                    Order Summary
-                </div>
-                <div class="card-body">
-                    <p>Subtotal: <strong><?= number_format($subtotal, 2) ?> NGN</strong></p>
-                    <p>Delivery Fee: <strong><?= number_format($delivery_fee, 2) ?> NGN</strong></p>
-                    <hr>
-                    <p>Total: <strong><?= number_format($total, 2) ?> NGN</strong></p>
-
-                    <!-- Payment Options -->
-                    <form id="codForm" method="post" action="<?= BASE_URL ?>payment_cod.php">
+                    <form id="checkoutForm" method="post" action="<?= BASE_URL ?>payment_cod.php" class="row g-3">
                         <input type="hidden" name="csrf_token" value="<?= e(get_csrf_token()) ?>">
-                        <?php foreach (['shipping_full_name','shipping_email','shipping_phone','shipping_street','shipping_city','shipping_state'] as $field): ?>
-                            <input type="hidden" name="<?= $field ?>" value="<?= e($_SESSION[$field] ?? '') ?>">
-                        <?php endforeach; ?>
-                        <div class="d-grid gap-2 mt-3">
-                            <button id="paystackBtn" class="btn btn-success" type="button" disabled>
-                                Pay with Paystack
-                            </button>
-                            <button class="btn btn-outline-primary" type="submit">
-                                Pay on Delivery
-                            </button>
+
+                        <!-- Shipping Details (Left Side) -->
+                        <div class="col-md-6">
+                            <h5>Shipping Details</h5>
+
+                            <div class="mb-3">
+                                <label class="form-label">Full Name</label>
+                                <input type="text" name="shipping_full_name" class="form-control"
+                                       value="<?= e($_SESSION['user_name'] ?? '') ?>" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" name="shipping_email" class="form-control"
+                                       value="<?= e($_SESSION['user_email'] ?? '') ?>" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Phone</label>
+                                <input type="text" name="shipping_phone" class="form-control"
+                                       value="<?= e($_SESSION['shipping_phone'] ?? '') ?>" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Street Address</label>
+                                <textarea name="shipping_street" class="form-control" rows="2" required><?= e($_SESSION['shipping_street'] ?? '') ?></textarea>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">City</label>
+                                    <input type="text" name="shipping_city" class="form-control"
+                                           value="<?= e($_SESSION['shipping_city'] ?? '') ?>" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">State</label>
+                                    <input type="text" name="shipping_state" class="form-control"
+                                           value="<?= e($_SESSION['shipping_state'] ?? '') ?>" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Order Summary & Payment (Right Side) -->
+                        <div class="col-md-6">
+                            <h5>Order Summary</h5>
+                            <div class="card bg-light mb-3">
+                                <div class="card-body">
+                                    <p>Subtotal: <strong><?= number_format($subtotal, 2) ?> NGN</strong></p>
+                                    <p>Delivery Fee: <strong><?= number_format($delivery_fee, 2) ?> NGN</strong></p>
+                                    <hr>
+                                    <p>Total: <strong><?= number_format($total, 2) ?> NGN</strong></p>
+                                </div>
+                            </div>
+
+                            <h5>Payment Method</h5>
+                            <div class="d-grid gap-2">
+                                <button id="paystackBtn" class="btn btn-success" type="button" disabled>
+                                    Pay with Paystack
+                                </button>
+                                <button type="submit" class="btn btn-outline-primary">
+                                    Pay on Delivery
+                                </button>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -165,6 +182,8 @@ shippingFields.forEach(name => {
 togglePaystackBtn();
 
 paystackBtn.addEventListener('click', function() {
+    if (!validateShipping()) return;
+
     const email = document.querySelector('input[name="shipping_email"]').value.trim();
     const handler = PaystackPop.setup({
         key: "<?= PAYSTACK_PUBLIC_KEY ?>",
@@ -173,7 +192,7 @@ paystackBtn.addEventListener('click', function() {
         currency: "NGN",
         ref: "ECM-" + Math.floor(Math.random() * 10000000 + 1),
         callback: function(response) {
-            // Send POST with shipping info to payment_success.php
+            // Submit shipping data to payment_success.php via POST
             const form = document.createElement('form');
             form.method = 'post';
             form.action = "<?= BASE_URL ?>payment_success.php?ref=" + response.reference;
