@@ -1,0 +1,7 @@
+# Ignore sensitive config
+/includes/config.php
+
+# Other common ignores
+.env
+.DS_Store
+Thumbs.db
